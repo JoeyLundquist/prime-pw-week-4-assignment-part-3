@@ -22,3 +22,10 @@ function listItems(array){
     }
 }
 listItems(basket);
+
+function empty(array){
+    array.splice(0, array.length)
+    console.log(array)
+}
+
+empty(basket);
